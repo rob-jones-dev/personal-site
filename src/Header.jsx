@@ -11,6 +11,8 @@ export default function Header() {
                     <li><a href='#'>// About</a></li>
                     <li><a href='#'>// Projects</a></li>
                     <li><a href='#'>// Contact</a></li>
+                    <li className='icon-link'><a href='https://github.com/rob-jones-dev' target='_blank' rel='noopener noreferrer'>// GitHub</a></li>
+                    <li className='icon-link'><a href='https://www.linkedin.com/in/rob-jones-dev/' target='_blank' rel='noopener noreferrer'>// LinkedIn</a></li>
                 </ul>
             </nav>
         </>
