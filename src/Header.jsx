@@ -1,3 +1,5 @@
+import { Link } from 'react-router';
+
 export default function Header() {
     return (
         <>
@@ -7,8 +9,8 @@ export default function Header() {
             </header>
             <nav className="bg-sky-600 text-white">
                 <ul className="font-mono flex flex-row justify-center gap-10 py-4 text-lg">
-                    <li><a href='/'>// Home</a></li>
-                    <li><a href='/about'>// About</a></li>
+                    <li><Link to='/'>// Home</Link></li>
+                    <li><Link to='/about'>// About</Link></li>
                     <li><a href='#'>// Projects</a></li>
                     <li><a href='#'>// Contact</a></li>
                     <li className='icon-link'><a href='https://github.com/rob-jones-dev' target='_blank' rel='noopener noreferrer'>// GitHub</a></li>
