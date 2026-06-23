@@ -1,12 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import 'tailwindcss';
 
-.roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+@theme {
+    --font-roboto: "Roboto", sans-serif;
 }
 
 .fancy-gradient h1 {
@@ -20,6 +16,11 @@ header h1 {
     width: fit-content;
 }
 
+.body-heading {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
 .body {
     max-width: 1200px;
     margin: 0 auto;
@@ -31,4 +32,18 @@ header h1 {
 
 .body:last-child {
     margin-bottom: 0;
+}
+
+.body:first-child {
+    margin-top: 1rem;
+}
+
+.skill-carousel {
+    background: #fff;
+    border-radius: 10%;
+    padding: 2em;
+}
+
+.skill-carousel img {
+    height: 100px;
 }

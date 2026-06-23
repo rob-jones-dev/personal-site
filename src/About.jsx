@@ -1,7 +1,7 @@
 export default function About() {
     return (
-        <div className="font-sans body p-4 mx-auto">
-            <span className="text-2xl font-bold">About Me</span>
+        <div className="font-Roboto body p-4 mx-auto">
+            <span className="text-2xl body-heading font-bold">About Me</span>
             <p>
                 As hard as it may be to believe I was a child once. When I was a child my Father got a computer and let me use it. When I used it I did the classics; solitare, minesweeper, and attemping to learn hearts. Computers were boring.
             </p>
