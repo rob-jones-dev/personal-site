@@ -1,7 +1,7 @@
 export default function App() {
   return (
     <div className="font-sans body p-4 mx-auto">
-      <span className="text-2xl font-bold">Hello!</span>
+      <span className="text-2xl body-heading font-bold">Hello!</span>
       <p>
       My name, as you might have seen above, is Rob Jones. I make websites sometimes, I also make other things as well.
       </p>

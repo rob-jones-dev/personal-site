@@ -5,14 +5,6 @@
     --font-roboto: "Roboto", sans-serif;
 }
 
-.fancy-gradient h1 {
-    background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    color: transparent;
-    background-clip: text;
-    animation: gradient 8s ease infinite;
-}
-
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -25,8 +17,18 @@
 	}
 }
 
+header {
+    background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+}
+
 header h1 {
     width: fit-content;
+}
+
+header figcaption {
+    opacity: 0;
 }
 
 .body-heading {
@@ -47,26 +49,24 @@ header h1 {
     margin-bottom: 0;
 }
 
-.body:first-child {
-    margin-top: 1rem;
-}
-
-.skill-carousel {
-    background: #fff;
-    border-radius: 20px;
-    padding: 2em;
-    gap: 10px;
-    min-height: 200px;
-    min-width: 40%;
-}
-
-.skill-carousel img {
+.skill-carousel figure img {
     height: 100px;
     transition: 0.5s ease-in-out;
 }
 
-.skill-carousel img:hover {
+.skill-carousel figure:hover img {
     height: 125px;
+}
+
+.skill-carousel figure figcaption {
+    transition: 0.5s ease-in-out;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.skill-carousel figure:hover figcaption {
+    opacity: 1;
 }
 
 .main-nav a:hover {
@@ -76,9 +76,6 @@ header h1 {
 }
 
 footer {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
     color: #fff;
     width: 100%;
     min-height: 30px;
