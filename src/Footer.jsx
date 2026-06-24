@@ -3,7 +3,7 @@ export default function Footer() {
         <footer className="bg-sky-600 flex justify-center items-center">
             <p>
                 <span className="font-mono mr-5">v1.0.2b</span>
-                Exactly zero AI was used in the creation of this website.
+                2026 | Exactly zero AI was used in the creation of this website.
             </p>
         </footer>
     )
