@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import Header from './Header.jsx'
 import About from './About.jsx'
+import Footer from './Footer.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router'
 
 createRoot(document.getElementById('root')).render(
@@ -14,6 +15,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   </StrictMode>,
 )
