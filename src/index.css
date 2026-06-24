@@ -80,3 +80,14 @@ footer {
     width: 100%;
     min-height: 30px;
 }
+
+.about-container section{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0084d1;
+}
+
+.about-container section li {
+    list-style: disc;
+    margin-left: 20px;
+}

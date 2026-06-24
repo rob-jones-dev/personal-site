@@ -9,7 +9,7 @@ import gitlogo from './assets/Git.svg'
 export default function Header() {
     return (
         <>
-            <header className="text-white fancy-gradient flex flex-row items-center justify-between gap-10 flex-wrap p-10 min-h-90">
+            <header className="text-white fancy-gradient flex flex-row items-center justify-between gap-10 flex-wrap p-10 min-h-143">
                 <div>
                     <h1 className="text-8xl roboto-main font-bold uppercase">Rob Jones</h1>
                     <h2 className="text-lg">Web Developer</h2>
