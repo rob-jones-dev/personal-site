@@ -2,7 +2,7 @@ export default function About() {
     return (
         <div className="flex body p-4">
             <div className="sidebar basis-1/4 border-r-2 border-e-sky-600 text-right pr-2">
-                <p>Test text</p>
+                <p></p>
             </div>
             <div className="font-Roboto p-4 mx-auto basis-3/4">
                 <span className="text-2xl body-heading font-bold">About Me</span>
