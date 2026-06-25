@@ -17,6 +17,12 @@
 	}
 }
 
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
@@ -78,7 +84,7 @@ header figcaption {
 footer {
     color: #fff;
     width: 100%;
-    min-height: 30px;
+    min-height: 50px;
 }
 
 .about-container section{
