@@ -1,5 +1,7 @@
 export default function Contact() {
     return (
-        <h1>Coming soon!</h1>
+        <div className="flex body p-4">
+            <span className="text-2xl body-heading font-bold">Contact</span>
+        </div>
     )
 }
